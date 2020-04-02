@@ -28,9 +28,8 @@ export class ProductComponent implements OnInit {
       this.toastr.success('Operación Completada','Producto Actualizado con éxito!!!');   
     } 
 
-    //swgfvffdvdvddvdvdv
-
-    this.resetForm(productForm);;
+    
+    this.resetForm(productForm);
     
   }
 
